@@ -9,7 +9,7 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeDetailComponent implements OnInit {
 
-  @Input() selectedRecipe: Recipe;
+  @Input() selectedRecipe!: Recipe;
 
 
   constructor() { }

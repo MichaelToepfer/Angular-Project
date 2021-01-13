@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-shopping-list-add',
   templateUrl: './shopping-list-add.component.html',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class ShoppingListAddComponent implements OnInit {
+
 
   constructor() { }
 
