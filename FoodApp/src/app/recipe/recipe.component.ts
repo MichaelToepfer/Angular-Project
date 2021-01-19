@@ -7,7 +7,7 @@ import { RecipeService } from './recipe.service';
   templateUrl: './recipe.component.html',
   styles: [
   ],
-  providers: [RecipeService]
+
 })
 export class RecipeComponent implements OnInit {
 
